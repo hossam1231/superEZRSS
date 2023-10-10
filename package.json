@@ -1,0 +1,21 @@
+{
+	"name": "super_ez_rss",
+	"version": "0.0.6",
+	"description": "npm package for managing rss feeds",
+	"scripts": {
+		"build": "tsc",
+		"start": "npm run build && node index.js",
+		"test": "exit 0"
+	},
+	"author": "Hossam Sulleman",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^1.5.1",
+		"rss-parser": "^3.13.0",
+		"uuid": "^9.0.1"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.5",
+		"jest": "^29.7.0"
+	}
+}
